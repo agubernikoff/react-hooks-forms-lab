@@ -27,10 +27,7 @@ function ShoppingList({ items, setItems }) {
 
   function onItemFormSubmit(obj) {
     setItems([...items2Display, obj]);
-    // console.log(items3Display);
-    // return items3Display;
   }
-  console.log(items);
   return (
     <div className="ShoppingList">
       <ItemForm onItemFormSubmit={onItemFormSubmit} />

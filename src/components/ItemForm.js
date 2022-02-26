@@ -22,7 +22,6 @@ function ItemForm({ onItemFormSubmit }) {
     };
     onItemFormSubmit(newItem);
   }
-
   return (
     <form className="NewItem" onSubmit={(e) => handleSubmit(e)}>
       <label>
